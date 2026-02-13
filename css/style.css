@@ -93,9 +93,14 @@ article .date {
 
 #footer {
     text-align: center;
-    padding: 2rem
+    padding: 2rem;
     margin-top: 3rem;
     border-top: 1px solid #ddd;
     color: #666;
     font-size: 0.9rem
+}
+img {
+    max-width: 100%;      /* responsive - won't overflow on mobile */
+    height: auto;         /* maintains aspect ratio */
+    border-radius: 8px;   /* rounded corners */
 }
